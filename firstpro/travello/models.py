@@ -9,4 +9,5 @@ class Destination(models.Model):
     specialoffer = models.BooleanField(default=False)
     desc = models.TextField()
     img = models.ImageField(upload_to='pics')
+    visting_places = models.TextField()
     
