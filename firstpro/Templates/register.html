@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Django</title>
+</head>
+
+<body bgcolor="ryan">
+    
+     <form action="register" method='post'>
+    {% csrf_token %}
+
+     Enter First Name:<input type="text" name="FIRST NAME" placeholder="FIRST NAME"><br>
+     Enter Last Name:<input type="text" name="LAST NAME" placeholder="LAST NAME"><br>
+     Enter User Name:<input type="text" name="User Name" placeholder="User Name"><br> 
+     Password:<input type="password" name="Password" placeholder="Password"><br>
+     Confirm Password:<input type="password" name="Confirm Password" placeholder="Confirm Password"><br>
+     Enter email:<input type="email" name="EMAIL" placeholder="E-Mail"><br>
+    
+     <input type="submit">
+
+</body>
+
+</html>
